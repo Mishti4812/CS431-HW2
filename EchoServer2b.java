@@ -11,7 +11,7 @@ public class EchoServer2b extends Thread
     ServerSocket serverSocket = null; 
 
     try { 
-         serverSocket = new ServerSocket(10008); 
+         serverSocket = new ServerSocket.accept(); 
          System.out.println ("Connection Socket Created");
          try { 
               while (serverContinue)
